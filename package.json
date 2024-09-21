@@ -1,0 +1,32 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "library was a project for entities member and book",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index.js"
+  },
+  "author": "nura",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chai-http": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "method-override": "^3.0.0",
+    "moment": "^2.30.1",
+    "mysql2": "^3.11.3",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
